@@ -1,0 +1,31 @@
+{
+    "name": "appslabke/code-key-generator",
+    "description": "Package to develop unique reference code in your laravel package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "erusev/parsedown": "1.7.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.9@dev",
+        "mockery/mockery": "^1.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unique\\Refcode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unique\\Refcode\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Unique\\Refcode\\RefcodeServiceProvider"
+            ]
+        }
+    }
+}
