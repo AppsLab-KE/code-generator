@@ -1,11 +1,11 @@
 {
     "name": "appslabke/code-key-generator",
-    "description": "Package to develop unique reference code in your laravel package",
+    "description": "Package to generate unique references codes and keys.",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "erusev/parsedown": "1.7.3"
+    
     },
     "require-dev": {
         "orchestra/testbench": "^3.9@dev",
